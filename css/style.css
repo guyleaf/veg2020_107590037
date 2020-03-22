@@ -8,23 +8,30 @@ html {
 }
 
 .container {
-    max-width: 940px;
+    width: 940px;
 	margin-left: auto;
     margin-right: auto;
-    margin-bottom: 35px;
 }
 
+.box {
+    border-radius: 3px;
+    background-color: #778A50;
+}
+
+.clear {
+    margin: 0px;
+    padding: 0px;
+}
+
+/*header field*/
 .header-top {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
-    margin: 0;
-    padding: 0;
     padding-top: 50px;
 }
 
 .header-title {
-    margin: 0;
-    padding: 0;
     font-family: "Arial Black", sans-serif;
     font-size: 44px;
     font-weight: 900;
@@ -33,74 +40,53 @@ html {
 
 .header-information {
     display: flex;
-    margin: 0;
-    padding: 0;
+    flex-direction: row;
     align-items: center;
 }
 
-.header-information-link {
-    display: flex;
-    padding-right: 10px;
-
-}
-
 .btn_facebook {
-    padding: 0px;
-    margin: 0px;
     margin-right: 5px;
 }
 
 .btn_instagram {
-    padding: 0px;
-    margin: 0px;
     margin-left: 5px;
-}
-
-.header-information-btn {
-    display: flex;
-    padding-left: 10px;
-}
-
-.btn_login {
-    height: 25px;
-    background-color: transparent;
-    margin-right: 5px;
-    border-radius: 3px;
-    border: solid 1px #778a50;
-    color: #778a50;
-    font-family: "Arial Black", sans-serif;
-    font-size: 14px;
-    font-weight: bold;
-}
-
-.btn_join {
-    height: 25px;
-    background-color: transparent;
-    margin-left: 5px;
-    border-radius: 3px;
-    border: solid 1px #778a50;
-    color: #778a50;
-    font-family: "Arial Black", sans-serif;
-    font-size: 14px;
-    font-weight: bold;
 }
 
 .line-seperation {
     width: 1px;
     height: 25px;
     background-color: #778a50;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
+.btn_text {
+    height: 25px;
+    background-color: #EDF2C5;
+    border-radius: 3px;
+    border: solid 1px #778a50;
+    color: #778a50;
+    font-family: "Arial Black", sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.btn_login {
+    margin-right: 5px;
+}
+
+.btn_join {
+    margin-left: 5px;
+}
+
+/*navigation field*/
 .nav {
     margin-top: 8px;
 }
 
 .nav-list {
     display: flex;
-    background-color: #778A50;
-    border-radius: 3px;
-    margin: 0px;
-    padding: 0px;
+    flex-direction: row;
 }
 
 .nav-list-item {
@@ -117,25 +103,24 @@ html {
     color: #edf2c5;
 }
 
-.content-picture {
+
+.picture {
     margin-top: 20px;
 }
 
-.content-topics {
+
+.content {
     margin-top: 30px;
     display: flex;
     justify-content: space-between;
 }
 
+/*Vegetable field*/
 .vegetable {
     width: 445px;
 }
 
-.vegetable > .title {
-    border-radius: 3px;
-    background-color: #778A50;
-    margin: 0px;
-    padding: 0px;
+.title {
     padding: 15px 30px;
     font-family: "Arial Black", sans-serif;
     font-size: 16px;
@@ -143,59 +128,49 @@ html {
     color: #edf2c5;
 }
 
-.vegetable > .picture {
+.pictures {
     margin-top: 15px;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
 }
 
+/*Contact field*/
 .contact {
     width: 445px;
 }
 
-.contact > .title {
-    border-radius: 3px;
-    background-color: #778A50;
-    margin: 0px;
-    padding: 0px;
-    padding: 15px 30px;
-    font-family: "Arial Black", sans-serif;
-    font-size: 16px;
-    font-weight: 900;
-    color: #edf2c5;
-}
-
-.contact > .information {
-    height: 140px;
-    margin-top: 15px;
-    background-color: #f7fbda;
-    padding: 16px 15px;
-}
-
-.description {
-    line-height: 1.33;
+.contact-text {
     font-family: "ArialMT Regular", sans-serif;
     font-size: 12px;
     color: #7d7d7d;
-    margin: 0px;
-    padding: 0px;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 140px;
+    margin-top: 15px;
+    background-color: #f7fbda;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.description {
+    width: 410px;
+    line-height: 1.33;
+    padding-top: 16px;
     padding-bottom: 16px;
 }
 
 .contact-info {
     padding-top: 16px;
+    padding-bottom: 17px;
 }
 
 .contact-info > p {
     line-height: 1.83;
-    font-family: "ArialMT Regular", sans-serif;
-    font-size: 12px;
-    color: #7d7d7d;
-    margin: 0px;
-}
-
-hr {
-    margin: 0px;
 }
 
 .footer {
@@ -206,4 +181,5 @@ hr {
     font-family: "ArialMT Regular", sans-serif;
     font-size: 12px;
     color: #edf2c5;
+    margin-top: 35px;
 }
