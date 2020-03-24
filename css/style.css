@@ -29,6 +29,7 @@ html {
     flex-direction: row;
     justify-content: space-between;
     padding-top: 50px;
+    position: relative;
 }
 
 .header-title {
@@ -42,13 +43,19 @@ html {
     display: flex;
     flex-direction: row;
     align-items: center;
+    position: relative;
+    top: 6px;
 }
 
 .btn_facebook {
+    width: 25px;
+    height: 25px;
     margin-right: 5px;
 }
 
 .btn_instagram {
+    width: 25px;
+    height: 25px;
     margin-left: 5px;
 }
 
@@ -61,7 +68,6 @@ html {
 }
 
 .btn_text {
-    height: 25px;
     background-color: #EDF2C5;
     border-radius: 3px;
     border: solid 1px #778a50;
@@ -69,14 +75,23 @@ html {
     font-family: "Arial Black", sans-serif;
     font-size: 14px;
     font-weight: bold;
+    text-align: center;
 }
 
-.btn_login {
+.btn_login_box {
+    height: 25px;
+    width: 60px;
     margin-right: 5px;
+    padding-top: 3px;
+    padding-bottom: 3px;
 }
 
-.btn_join {
+.btn_join_box {
+    height: 25px;
+    width: 50px;
     margin-left: 5px;
+    padding-top: 3px;
+    padding-bottom: 3px;
 }
 
 /*navigation field*/
