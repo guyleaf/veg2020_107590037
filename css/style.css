@@ -84,6 +84,7 @@ html {
     margin-right: 5px;
     padding-top: 3px;
     padding-bottom: 3px;
+    text-decoration: none;
 }
 
 .btn_join_box {
@@ -92,6 +93,7 @@ html {
     margin-left: 5px;
     padding-top: 3px;
     padding-bottom: 3px;
+    text-decoration: none;
 }
 
 /*navigation field*/
