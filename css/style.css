@@ -178,11 +178,14 @@ body {
     width: 410px;
     line-height: 1.33;
     padding-top: 16px;
-    padding-bottom: 16px;
+}
+
+.contact-textline {
+    margin-top: 12px;
+    margin-bottom: 12px;
 }
 
 .contact-info {
-    padding-top: 16px;
     padding-bottom: 16px;
 }
 
