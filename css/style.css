@@ -1,4 +1,4 @@
-html {
+body {
 	background-color: #edf2c5;
 	box-sizing: border-box;
 }
@@ -183,13 +183,14 @@ html {
 
 .contact-info {
     padding-top: 16px;
-    padding-bottom: 17px;
+    padding-bottom: 16px;
 }
 
 .contact-info > p {
     line-height: 1.83;
 }
 
+/*Footer field*/
 .footer {
     background-color: #778a50;
     padding-top: 24px;
