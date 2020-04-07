@@ -164,9 +164,6 @@ body {
 }
 
 .information {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     height: 140px;
     margin-top: 15px;
     background-color: #f7fbda;
@@ -177,19 +174,17 @@ body {
 .description {
     width: 410px;
     line-height: 1.33;
-    padding-top: 16px;
+    padding-top: 13px;
 }
 
 .contact-textline {
-    margin-top: 12px;
+    border: 0px;
+    height: 1px;
+    margin-top: 16px;
     margin-bottom: 12px;
 }
 
-.contact-info {
-    padding-bottom: 16px;
-}
-
-.contact-info > p {
+.contact-info{
     line-height: 1.83;
 }
 
